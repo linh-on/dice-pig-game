@@ -10,7 +10,7 @@ $("#start").click(startGame);
 
 function startGame() {
   //start the game
-  $("#howToPlay").hide();
+  $("#HowToPlay").hide();
   $("#message").text = "Player 1's turn";
 }
 

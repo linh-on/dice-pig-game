@@ -7,6 +7,12 @@ $("#roll").click(rollDice);
 $("#hold").click(holdScore);
 $("#new").click(newGame);
 $("#start").click(startGame);
+$("#htp").click(showHowToPlay);
+
+function showHowToPlay() {
+  //start the game
+  $("#HowToPlay").show();
+}
 
 function startGame() {
   //start the game
